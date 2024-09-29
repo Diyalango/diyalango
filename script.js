@@ -73,6 +73,7 @@ function initClient() {
     }).catch((error) => {
         console.error("API hatası:", error);
     });
+    
 }
 
 // Kullanıcı giriş durumunu güncelle
