@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diyalango</title>
+    <link rel="stylesheet" href="/static/styles.css">
+<script src="/static/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Diyalango</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+                <li><button id="login-button">Gmail ile Giriş Yap</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Hoş Geldiniz!</h2>
+            <p>Diyalango Reklam Hizmetleri</p>
+        </section>
+
+        <section>
+            <h2>Yapay Zeka Özellikleri</h2>
+            <form id="ai-form">
+                <label for="video-count">Video Sayısı:</label>
+                <input type="number" id="video-count" name="video_count" min="1" value="1">
+                <label for="comment-text">Yorum Metni:</label>
+                <input type="text" id="comment-text" name="comment_text" placeholder="Yorumunuzu yazın...">
+                <button type="submit">Yorumu Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Diyalango. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
